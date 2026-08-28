@@ -77,11 +77,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "合同会社IPプランニング | 三重県志摩市" },
+      {
+        name: "description",
+        content:
+          "合同会社IPプランニング(三重県志摩市)の公式サイト。知的財産権関連事業、事務処理サービス、コンテンツ制作などを展開。",
+      },
+      { property: "og:title", content: "合同会社IPプランニング" },
+      {
+        property: "og:description",
+        content: "知的財産・事務代行・コンテンツ制作を手がける合同会社IPプランニングの公式サイト。",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
